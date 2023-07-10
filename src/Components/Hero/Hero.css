@@ -1,0 +1,20 @@
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+  background: linear-gradient(-45deg, var(--background-color-1), var(--background-color-2));
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  border-bottom-left-radius: 37px;
+  border-bottom-right-radius: 37px;
+
+}
+
+.icon {
+  color: white;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  
+}
