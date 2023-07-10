@@ -8,13 +8,19 @@
     "@testing-library/user-event": "^14.4.3",
     "create-react-app": "^5.0.1",
     "es6": "^0.0.7",
+<<<<<<< HEAD
     "prop-types": "^15.8.1",
     "proptypes": "^1.1.0",
+=======
+>>>>>>> 11bb728 (commit initial)
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-scripts": "^5.0.1",
+<<<<<<< HEAD
     "react.proptypes": "^2.0.0",
+=======
+>>>>>>> 11bb728 (commit initial)
     "web-vitals": "^3.3.2"
   },
   "scripts": {
