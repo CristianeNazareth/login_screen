@@ -1,20 +1,35 @@
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.page-hero {
+  /* background-color: rgb(241, 255, 255); */
+  /* background-color: aqua; */
+  width: 50vw;
+  height: 120vh;
+  border-radius: 1.5rem;
+}
 .hero {
   display: flex;
-  width: 100vw;
-  height: 30vh;
+  width: 50vw;
+  height: 60vh;
   background: linear-gradient(-45deg, var(--background-color-1), var(--background-color-2));
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  flex-direction: column;
   border-bottom-left-radius: 37px;
   border-bottom-right-radius: 37px;
-
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
 }
-
 .icon {
   color: white;
   align-items: center;
   width: 64px;
   height: 64px;
-  
+}
+.text {
+  color: white;
+
 }
