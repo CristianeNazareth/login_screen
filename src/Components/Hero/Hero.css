@@ -1,14 +1,16 @@
 .page {
   display: flex;
   justify-content: center;
+  position: relative;
+  border-top-left-radius: 5rem;
+  border-top-left-radius: 2rem;
 }
-
 .page-hero {
-  /* background-color: rgb(241, 255, 255); */
-  /* background-color: aqua; */
+  background-color: rgb(252, 255, 255);
   width: 50vw;
   height: 120vh;
   border-radius: 1.5rem;
+  box-shadow: 2px 4px 4px 6px rgba(0, 0, 0, 0.2);
 }
 .hero {
   display: flex;
@@ -31,5 +33,4 @@
 }
 .text {
   color: white;
-
 }
