@@ -1,18 +1,23 @@
 .box-login {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   position: absolute;
-  bottom: 138px;
-  right: 30%;
-  left: 30%;
+  top: 47%;
+  left: 33%;
+  padding-bottom: 1rem;
 }
 .login-z {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 30vw;
-  height: 120px;
+  height: 130px;
   box-shadow: 5px 4px 4px #cac7c771;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: white;
   color: var(--background-color-1);
   padding: 1rem;
@@ -20,4 +25,31 @@
 .line {
   width: 90%;
   border-color: var(--background-color-1);
+}
+.login-wrapper {
+  position: absolute;
+  top: 85%;
+  right: 33%;
+  left: 33%;
+}
+.login-btn {
+  height: 3rem;
+  width: 18.5rem;
+  background-color: var(--background-color-1);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.2rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--background-color-1);
+  padding-top: 3rem;
+}
+.wrapper-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
