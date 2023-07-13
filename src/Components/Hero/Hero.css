@@ -1,9 +1,11 @@
 .page {
   display: flex;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
   border-top-left-radius: 5rem;
   border-top-left-radius: 2rem;
+
+  align-items: center;
 }
 .page-hero {
   background-color: rgb(252, 255, 255);
@@ -11,6 +13,8 @@
   height: 120vh;
   border-radius: 1.5rem;
   box-shadow: 2px 4px 4px 6px rgba(0, 0, 0, 0.2);
+
+  position: relative;
 }
 .hero {
   display: flex;
