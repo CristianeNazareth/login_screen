@@ -1,12 +1,11 @@
 import './App.css'
 import React from 'react'
 import Hero from './Components/Hero/Hero.jsx'
-import ButtonSocial from './Components/ButtonSocial/ButtonSocial.jsx';
 import './styles/variables.css';
 import Login from './Components/Login/Login.jsx';
-import { BiLogoFacebook } from "react-icons/bi";
-import { BiLogoTwitter } from "react-icons/bi";
-import { BiLogoGoogle } from "react-icons/bi";
+// import Footer from './Components/Footer/Footer.jsx'
+
+
 
 
 const App = () => {
@@ -18,11 +17,7 @@ const App = () => {
 
         <Login />
 
-        <footer>
-          <ButtonSocial icon={<BiLogoFacebook />} />
-          <ButtonSocial icon={<BiLogoTwitter />} />
-          <ButtonSocial icon={<BiLogoGoogle />} />
-        </footer>
+
 
 
       </React.Fragment>

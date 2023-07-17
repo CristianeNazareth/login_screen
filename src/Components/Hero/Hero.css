@@ -1,9 +1,11 @@
 .page {
   display: flex;
   justify-content: center;
-  /* position: relative; */
+  position: relative;
   border-top-left-radius: 5rem;
   border-top-left-radius: 2rem;
+  height: 900px;
+  /* margin: 0.8rem 80px ; */
 
   align-items: center;
 }
@@ -14,7 +16,7 @@
   border-radius: 1.5rem;
   box-shadow: 2px 4px 4px 6px rgba(0, 0, 0, 0.2);
 
-  position: relative;
+  /* position: relative; */
 }
 .hero {
   display: flex;
