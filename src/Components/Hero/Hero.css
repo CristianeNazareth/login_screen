@@ -1,22 +1,19 @@
 .page {
   display: flex;
   justify-content: center;
-  position: relative;
   border-top-left-radius: 5rem;
   border-top-left-radius: 2rem;
-  height: 800px;
-  /* margin: 0.8rem 80px ; */
-
+  height: 100%;
   align-items: center;
 }
 .page-hero {
   background-color: rgb(252, 255, 255);
   width: 50vw;
-  height: 120vh;
+  height: 130vh;
   border-radius: 1.5rem;
   box-shadow: 2px 4px 4px 6px rgba(0, 0, 0, 0.2);
-
-  /* position: relative; */
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .hero {
   display: flex;
@@ -34,8 +31,8 @@
 .icon {
   color: white;
   align-items: center;
-  width: 64px;
-  height: 64px;
+  width: 74px;
+  height: 74px;
 }
 .text {
   color: white;

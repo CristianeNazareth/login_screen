@@ -1,5 +1,4 @@
 import React from "react";
-import './ButtonSocial.css';
 import PropTypes from 'prop-types';
 
 const ButtonSocial = (props) => {

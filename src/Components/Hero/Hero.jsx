@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="page">
       <div className="page-hero">
         <div className="hero">
-          <div className="iconWapper"><BsPinterest className="icon" /></div>
+          <div className="iconWrapper"><BsPinterest className="icon" /></div>
           <p className="text">Pinterest</p>
         </div>
 
