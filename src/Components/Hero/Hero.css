@@ -38,3 +38,28 @@
 .text {
   color: white;
 }
+
+
+
+
+@media screen and (max-width: 717px) {
+  .page-hero {
+    height: 130vh;
+  }
+  .hero {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 590px) {
+  .page-hero {
+    height: 100vh;
+  }
+  .hero {
+    height: 50vh;
+  }
+  .icon {
+  width: 54px;
+  height: 54px;
+}
+}
+

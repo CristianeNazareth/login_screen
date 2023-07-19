@@ -3,10 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 0; */
-  /* padding: 0; */
   position: absolute;
-  top: 47%;
+  top: 44%;
   left: 33%;
   padding-bottom: 1rem;
   ;
@@ -15,7 +13,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 30vw;
+  width: 100%;
+  max-width: 30vw;
   height: 140px;
   box-shadow: 5px 4px 4px #cac7c771;
   border-radius: 20px;
@@ -50,3 +49,56 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+
+
+
+
+@media screen and (max-width: 1139px) {
+  .login-btn, .wrapper-text {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 885px) {
+  .login-z {
+    top: 45%;
+  }
+  .login-btn, .wrapper-text {
+    width: 295px;
+    height: 3.2rem;
+  }
+}
+@media screen and (max-width: 717px) {
+  .box-login {
+    top: 46%;
+  }
+  .login-z {
+    height: 110px;
+    font-size: 14px;
+  }
+  .wrapper-login {
+    padding-top: 5rem;
+  }
+  .login-btn, .wrapper-text {
+    height: 2.2rem;
+    width: 240px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .box-login {
+    top: 39%;
+  }
+  .login-z {
+    height: 80px;
+    font-size: 12px;
+  }
+  .wrapper-login {
+    padding-top: 2.2rem;
+  }
+  .login-btn, .wrapper-text {
+    width: 180px;
+    font-size: 12px;
+  }
+}
+
